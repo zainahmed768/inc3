@@ -1,0 +1,421 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600&display=swap");
+/* Prelaoder */
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  overflow: hidden;
+  background: #000;
+}
+
+#preloader:before {
+  content: "";
+  position: fixed;
+  top: calc(50% - 30px);
+  left: calc(50% - 30px);
+  border: 6px solid #f2f2f2;
+  border-top: 6px solid #0068b4;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  -webkit-animation: animate-preloader 1s linear infinite;
+  animation: animate-preloader 1s linear infinite;
+}
+
+@-webkit-keyframes animate-preloader {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate-preloader {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+img {
+  pointer-events: none;
+}
+/* typography starts here */
+body{
+  overflow-x: hidden;
+}
+h1 {
+  font-family: "Manrope";
+  font-size: 65px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-transform: capitalize;
+}
+h2 {
+  font-family: "Manrope";
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: capitalize;
+}
+h3 {
+  font-family: "Manrope";
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-transform: capitalize;
+}
+h4 {
+  font-family: "Manrope";
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 1.2;
+}
+p {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+/* typography ends here */
+/* header starts here */
+.menu-item-wrapper ul.navbar-nav {
+  flex-direction: row;
+  justify-content: space-between;
+}
+.menu-item-wrapper ul.navbar-nav li a {
+  color: #1e2912;
+  font-family: "Manrope";
+  font-size: 18px;
+  font-weight: 500;
+}
+.menu-wrapper .menu-button-wrapper {
+  text-align: end;
+}
+.menu-wrapper .menu-button-wrapper button {
+  border: 0px;
+  background: #fcc000;
+  font-family: "Manrope";
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 7px 29px;
+}
+header#header {
+  padding-top: 20px;
+}
+.header-tag-line-wrapper {
+  background: #00c2ff;
+  padding: 10px 0px;
+}
+.header-tag-line-wrapper marquee p {
+  display: inline-block;
+  margin: 0px;
+  color: #fff;
+  font-family: "Poppins";
+}
+/* header ends here */
+/* banner starts here */
+.banner {
+  background-image: url("../img/banner-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0px;
+}
+.banner-content-wrapper h3 {
+  color: #fff;
+}
+
+.banner-content-wrapper h1 {
+  color: #fff;
+}
+.banner-content-wrapper h1 span {
+  background-color: #50c578;
+  padding: 2px 20px;
+  font-weight: 800;
+  border-radius: 31px 0px;
+  font-size: 75px;
+}
+.banner-content-wrapper .btn {
+  background-image: url("../img/btn-bg.png");
+  background-size: 100% 100%;
+  /* background-color: #fe00b0; */
+  padding: 20px 24px;
+  color: #fff;
+  font-family: "Manrope";
+  border-radius: 31% 69% 21% 79% / 100% 0% 100% 0%;
+  transition: all 0.3s ease-in-out;
+  background-color: transparent;
+  text-transform: capitalize;
+}
+.banner-content-wrapper .btn i {
+  margin-right: 13px;
+}
+.banner-content-wrapper p {
+  font-family: "Poppins";
+  color: #fff;
+}
+/* banner ends here */
+/* footer starts here */
+footer.footer {
+  position: relative;
+}
+footer.footer .footer-tag-line-wrapper {
+  background: #50c578;
+  padding: 10px 0px;
+}
+footer.footer .footer-tag-line-wrapper marquee p {
+  display: inline-block;
+  margin: 0px;
+  font-weight: 500;
+  color: #fff;
+}
+.footer-wedget-wrapper {
+  background: #1e2912;
+  padding: 100px 0px 0px 0px;
+}
+.footer-widget-1-wrapper .footer-logo-wrapper img {
+  filter: invert(1) brightness(100);
+}
+.footer-widget-1-wrapper p {
+  color: #fff;
+  font-family: "Manrope";
+  margin-top: 29px;
+  font-size: 15px;
+}
+.social-wrapper ul {
+  list-style: none;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.footerwidget-2-wrapper .footer-menu-wrapper ul li a {
+  color: #fff;
+  font-family: "Manrope";
+  font-size: 18px;
+  font-weight: 600;
+}
+.footer-menu-wrapper ul {
+  list-style: none;
+  padding: 0px;
+}
+.footer-menu-wrapper ul li {
+  line-height: 2;
+}
+.footerwidget-2-wrapper {
+  margin-left: 33px;
+}
+.footerwidget-2-wrapper h3 {
+  font-size: 24px;
+  color: #fff;
+  font-family: "Manrope";
+  font-weight: 700;
+}
+.footerwidget-2-wrapper .footer-heading-wrapper {
+  margin-bottom: 38px;
+}
+.footer-top-img {
+  margin-bottom: -97px;
+  position: relative;
+  z-index: -3;
+}
+.footerwidget-3-wrapper h3 {
+  font-size: 24px;
+  color: #fff;
+  font-family: "Manrope";
+  font-weight: 600;
+}
+.footerwidget-3-wrapper .footer-heading-wrapper {
+  margin-bottom: 38px;
+}
+.footerwidget-3-wrapper .footer-menu-wrapper ul li .icon-wrapper {
+  display: flex;
+  align-items: center;
+}
+.footerwidget-3-wrapper .footer-menu-wrapper ul li .icon-wrapper span {
+  margin-left: 20px;
+}
+.footerwidget-3-wrapper .footer-menu-wrapper ul li {
+  color: #fff;
+  margin-bottom: 20px;
+}
+.footerwidget-3-wrapper .footer-menu-wrapper ul li .icon-wrapper i {
+  width: 30px;
+  height: 30px;
+  border: 1px solid;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+}
+.footerwidget-4-wrapper h3 {
+  font-size: 24px;
+  color: #fff;
+  font-family: "Manrope";
+  font-weight: 700;
+}
+.footerwidget-4-wrapper .footer-heading-wrapper {
+  margin-bottom: 38px;
+}
+.newsletter-wrappper {
+  color: #fff;
+}
+.footerwidget-4-wrapper .newsletter-wrappper input {
+  width: 100%;
+  margin-bottom: 20px;
+  border: 0px;
+  border-radius: 0px;
+  height: 45px;
+}
+.footerwidget-4-wrapper .newsletter-wrappper .btn {
+  background-image: url("../img/btn-bg.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  padding: 23px 0px;
+  color: #fff;
+  font-family: "Manrope";
+}
+
+.copyright .content-wrapper {
+  color: #858b7e;
+  text-align: center;
+}
+.copyright {
+  padding: 50px 0px 20px;
+}
+/* footer ends here */
+/* serach sec starts here */
+.search-sec .search-wrappper {
+  width: 79%;
+}
+.search-wrappper input {
+  width: 100% !important;
+  border: 0px;
+  background: #ebebeb;
+  border-radius: 0px;
+  height: 41px;
+  margin-bottom: 10px !important;
+}
+.search-wrappper .btn {
+  background-image: url("../img/btn-bg.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  padding: 23px 0px;
+  color: #fff;
+  font-family: "Manrope";
+}
+.search-sec {
+  padding-top: 80px;
+}
+/* serach sec ends here */
+/* track starts here */
+.track-sec {
+  padding: 60px 0px;
+  position: relative;
+}
+.track-sec h4 {
+  color: #00f70c;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+}
+.track-sec h4::after {
+  content: "";
+  width: 57px;
+  height: 3px;
+  background: #15f720;
+  display: inline-block;
+  position: relative;
+  top: -4px;
+  left: 10px;
+}
+.track-sec h2 {
+  color: #1e2912;
+  font-weight: 700;
+}
+.track-sec p {
+  color: #000;
+  font-family: "Manrope";
+  font-size: 16px;
+  font-weight: 400;
+}
+.track-sec .btn {
+  background-image: url("../img/btn-bg.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  padding: 21px 45px;
+  color: #fff;
+  font-size: 18px;
+  font-family: "Manrope";
+}
+.track-sec .bubbles-wrapper {
+  position: absolute;
+  left: -53%;
+  top: 10%;
+  mix-blend-mode: difference;
+}
+/* track ends here */
+/* register starts here */
+.register-sec {
+  background-image: url("../img/register-bg.png");
+  background-size: 100% 101%;
+  position: relative;
+  padding: 105px 0px;
+  overflow-x: hidden;
+  overflow-y: clip;
+}
+.register-sec .register-plant-wrapper {
+  position: absolute;
+}
+section.register-sec .register-bubble-wrapper {
+  position: absolute;
+  right: -48%;
+  top: -167%;
+  z-index: -5;
+}
+.register-sec .register-plant-wrapper {
+  position: absolute;
+  right: -41px;
+  bottom: -33%;
+}
+.register-sec h4 {
+  color: #fff;
+}
+.register-sec h4::after {
+  content: "";
+  width: 57px;
+  height: 3px;
+  background: #ffffff;
+  display: inline-block;
+  position: relative;
+  top: -4px;
+  left: 10px;
+}
+.register-sec h2 {
+  color: #fff;
+}
+.register-sec p {
+  color: #fff;
+}
+.register-sec button.btn {
+  background-image: url("../img/blue-btn-bg.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  padding: 29px 45px;
+  color: #fff;
+  font-size: 18px;
+  font-family: "Manrope";
+}
+/* register ends here */
