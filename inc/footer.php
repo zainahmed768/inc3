@@ -8,7 +8,7 @@
                 <div class="col-lg-12">
                     <marquee behavior="" direction="">
                         <p>
-                            Something great is coming soon” and one paragraph that says “We can remove the dirty smoke and fumes from cities! Let’s make it better for all. Cleaner, Fresher Air!
+                            We can remove the dirty smoke and fumes from cities! Let’s make it better for all. Cleaner, Fresher Air!
                         </p>
                     </marquee>
                 </div>

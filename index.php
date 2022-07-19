@@ -11,7 +11,7 @@
                         <span>Courier Needs.</span>
                     </h1>
                     <p>
-                        Something great is coming soon” and one paragraph that says “We can remove the dirty smoke and fumes from cities! Let’s make it better for all. Cleaner, Fresher Air!
+                        We can remove the dirty smoke and fumes from cities! Let’s make it better for all. Cleaner, Fresher Air!
                     </p>
                     <button class="btn"><i class="fa fa-eye"></i> Learn More</button>
                     <button class="btn"><i class="fa fa-eye"></i> services</button>
