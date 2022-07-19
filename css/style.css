@@ -107,9 +107,9 @@ p {
   font-weight: 500;
   padding: 7px 29px;
 }
-header#header {
-  padding-top: 20px;
-}
+/*header#header {*/
+/*  padding-top: 20px;*/
+/*}*/
 .header-tag-line-wrapper {
   background: #00c2ff;
   padding: 10px 0px;
@@ -123,10 +123,10 @@ header#header {
 /* header ends here */
 /* banner starts here */
 .banner {
-  background-image: url("../img/banner-bg.png");
+  background-image: url("../img/london-train2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 100px 0px;
+  padding: 100px 0px
 }
 .banner-content-wrapper h3 {
   color: #fff;
