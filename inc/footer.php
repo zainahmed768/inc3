@@ -18,7 +18,7 @@
     <div class="footer-wedget-wrapper">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3">
+                <div class="col-lg-4">
                     <div class="footer-widget-1-wrapper">
                         <div class="footer-logo-wrapper">
                             <a href="index.php">
@@ -59,34 +59,34 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-2">
-                    <div class="footerwidget-2-wrapper">
-                        <div class="footer-heading-wrapper">
-                            <h3>Menu</h3>
-                        </div>
-                        <div class="footer-menu-wrapper">
-                            <ul>
-                                <li>
-                                    <a href="javascript:void(0);">Home</a>
-                                </li>
-                                <li>
-                                    <a href="javascript:void(0);">About</a>
-                                </li>
-                                <li>
-                                    <a href="javascript:void(0);">Services</a>
-                                </li>
-                                <li>
-                                    <a href="javascript:void(0);">Pricing</a>
-                                </li>
-                                <li>
-                                    <a href="javascript:void(0);">Contact us</a>
-                                </li>
-
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3">
+<!--                <div class="col-lg-2">-->
+<!--                    <div class="footerwidget-2-wrapper">-->
+<!--                        <div class="footer-heading-wrapper">-->
+<!--                            <h3>Menu</h3>-->
+<!--                        </div>-->
+<!--                        <div class="footer-menu-wrapper">-->
+<!--                            <ul>-->
+<!--                                <li>-->
+<!--                                    <a href="javascript:void(0);">Home</a>-->
+<!--                                </li>-->
+<!--                                <li>-->
+<!--                                    <a href="javascript:void(0);">About</a>-->
+<!--                                </li>-->
+<!--                                <li>-->
+<!--                                    <a href="javascript:void(0);">Services</a>-->
+<!--                                </li>-->
+<!--                                <li>-->
+<!--                                    <a href="javascript:void(0);">Pricing</a>-->
+<!--                                </li>-->
+<!--                                <li>-->
+<!--                                    <a href="javascript:void(0);">Contact us</a>-->
+<!--                                </li>-->
+<!---->
+<!--                            </ul>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+                <div class="col-lg-4">
                     <div class="footerwidget-3-wrapper">
                         <div class="footer-heading-wrapper">
                             <h3>Company Info</h3>
@@ -101,8 +101,8 @@
                                         </span>
                                     </div>
                                     <span>
-                                        22-22 Wenlock Road London,
-                                        N1 7GU United Kingdom.
+                                        22-22 Wenlock Road London,<br>
+                                        N1 7GU UK.
                                     </span>
                                 </li>
                                 <li>
@@ -113,7 +113,7 @@
                                         </span>
                                     </div>
                                     <span>
-                                        13957420
+                                        Company Number: 13957420
                                     </span>
                                 </li>
 
