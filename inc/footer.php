@@ -2,23 +2,23 @@
 <!--    <div class="footer-top-img">-->
 <!--        <img src="img/footer-top.png" alt="">-->
 <!--    </div>-->
-    <div class="footer-tag-line-wrapper">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-12">
-                    <marquee behavior="" direction="">
-                        <p>
-                            We can remove the dirty smoke and fumes from cities! Let’s make it better for all. Cleaner, Fresher Air!
-                        </p>
-                    </marquee>
-                </div>
-            </div>
-        </div>
-    </div>
+<!--    <div class="footer-tag-line-wrapper">-->
+<!--        <div class="container-fluid">-->
+<!--            <div class="row">-->
+<!--                <div class="col-lg-12">-->
+<!--                    <marquee behavior="" direction="">-->
+<!--                        <p>-->
+<!--                            We can remove the dirty smoke and fumes from cities! Let’s make it better for all. Cleaner, Fresher Air!-->
+<!--                        </p>-->
+<!--                    </marquee>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
     <div class="footer-wedget-wrapper">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4">
+                <div class="col-lg-6">
                     <div class="footer-widget-1-wrapper">
                         <div class="footer-logo-wrapper">
                             <a href="index.php">
@@ -28,35 +28,35 @@
 <!--                        <p>-->
 <!--                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.-->
 <!--                        </p>-->
-                        <div class="social-wrapper">
-                            <ul>
-                                <li>
-                                    <a href="javascript:void(0);">
-                                        <img src="img/facebook.png" alt="">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="javascript:void(0);">
-                                        <img src="img/twitter.png" alt="">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="javascript:void(0);">
-                                        <img src="img/linkdin.png" alt="">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="javascript:void(0);">
-                                        <img src="img/youtube.png" alt="">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="javascript:void(0);">
-                                        <img src="img/phone.png" alt="">
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
+<!--                        <div class="social-wrapper">-->
+<!--                            <ul>-->
+<!--                                <li>-->
+<!--                                    <a href="javascript:void(0);">-->
+<!--                                        <img src="img/facebook.png" alt="">-->
+<!--                                    </a>-->
+<!--                                </li>-->
+<!--                                <li>-->
+<!--                                    <a href="javascript:void(0);">-->
+<!--                                        <img src="img/twitter.png" alt="">-->
+<!--                                    </a>-->
+<!--                                </li>-->
+<!--                                <li>-->
+<!--                                    <a href="javascript:void(0);">-->
+<!--                                        <img src="img/linkdin.png" alt="">-->
+<!--                                    </a>-->
+<!--                                </li>-->
+<!--                                <li>-->
+<!--                                    <a href="javascript:void(0);">-->
+<!--                                        <img src="img/youtube.png" alt="">-->
+<!--                                    </a>-->
+<!--                                </li>-->
+<!--                                <li>-->
+<!--                                    <a href="javascript:void(0);">-->
+<!--                                        <img src="img/phone.png" alt="">-->
+<!--                                    </a>-->
+<!--                                </li>-->
+<!--                            </ul>-->
+<!--                        </div>-->
                     </div>
                 </div>
 <!--                <div class="col-lg-2">-->
@@ -86,7 +86,7 @@
 <!--                        </div>-->
 <!--                    </div>-->
 <!--                </div>-->
-                <div class="col-lg-4">
+                <div class="col-lg-6">
                     <div class="footerwidget-3-wrapper">
                         <div class="footer-heading-wrapper">
                             <h3>Company Info</h3>
@@ -121,23 +121,23 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="footerwidget-4-wrapper">
-                        <div class="footer-heading-wrapper">
-                            <h3>Newsletter</h3>
-                        </div>
-                        <div class="newsletter-wrappper">
-<!--                            <p>-->
-<!--                                Lorem ipsum dolor sit amet, consectetur adipiscing-->
-<!--                            </p>-->
-                            <div class="input-group flex-column">
-                                <input type="email" class="form-control">
-                                <button class="btn btn-theme" type="submit"><i class="fa fa-download"></i> Submit</button>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
+<!--                <div class="col-lg-4">-->
+<!--                    <div class="footerwidget-4-wrapper">-->
+<!--                        <div class="footer-heading-wrapper">-->
+<!--                            <h3>Newsletter</h3>-->
+<!--                        </div>-->
+<!--                        <div class="newsletter-wrappper">-->
+<!--<!-                           <p>-->
+<!--<!-                               Lorem ipsum dolor sit amet, consectetur adipiscing-->-->
+<!--<!                            </p>-->
+<!--                            <div class="input-group flex-column">-->
+<!--                                <input type="email" class="form-control">-->
+<!--                                <button class="btn btn-theme" type="submit"><i class="fa fa-download"></i> Submit</button>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!---->
+<!--                    </div>-->
+<!--                </div>-->
             </div>
         </div>
         <div class="copyright">

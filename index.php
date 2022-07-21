@@ -11,10 +11,10 @@
                         <span>Courier Needs.</span>
                     </h1>
                     <p>
-                        We can remove the dirty smoke and fumes from cities! Let’s make it better for all. Cleaner, Fresher Air!
+                        Providing a green service and joining the mission to make our planet green again
                     </p>
-                    <button class="btn"><i class="fa fa-eye"></i> Learn More</button>
-                    <button class="btn"><i class="fa fa-eye"></i> services</button>
+<!--                    <button class="btn"><i class="fa fa-eye"></i> Learn More</button>-->
+<!--                    <button class="btn"><i class="fa fa-eye"></i> services</button>-->
                 </div>
             </div>
         </div>
